@@ -12,6 +12,7 @@ class AppTheme {
     ),
     textTheme: TextTheme(
       titleLarge: GoogleFonts.montserratAlternates(),
+      titleMedium: GoogleFonts.montserratAlternates(fontSize: 25)
     )
   );
 }

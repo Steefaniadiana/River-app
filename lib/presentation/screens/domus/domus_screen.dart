@@ -28,7 +28,12 @@ class _DomusScreenVisum extends StatelessWidget {
           titulus: 'State provider', 
           subtitulus: 'Un estado simple', 
           locus: '/state-provider'
-          )
+          ),
+          _AdaptaListTile(
+          titulus: 'Future provider', 
+          subtitulus: 'Un simple future + family', 
+          locus: '/future-provider'
+          ),
       ],
     );
   }
