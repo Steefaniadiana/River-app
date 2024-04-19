@@ -7,4 +7,15 @@ class AleatoriumGenerator {
     final aleatoriumNomen = RandomNames(Zone.spain); 
     return aleatoriumNomen.fullName(); 
   }
+
+  static Stream<String> aleatoriumStream() {
+
+    return Stream.periodic(
+      const Duration(seconds: 2),
+      (i) {
+        return getAleatoriumNomen();
+      }
+    );
+  }
+
 }

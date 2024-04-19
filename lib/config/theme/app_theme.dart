@@ -12,7 +12,9 @@ class AppTheme {
     ),
     textTheme: TextTheme(
       titleLarge: GoogleFonts.montserratAlternates(),
-      titleMedium: GoogleFonts.montserratAlternates(fontSize: 25)
+      titleMedium: GoogleFonts.russoOne(fontSize: 25),
+      bodyLarge: GoogleFonts.montserratAlternates(fontSize: 18),
+      bodyMedium: GoogleFonts.russoOne(fontSize: 16),
     )
   );
 }
