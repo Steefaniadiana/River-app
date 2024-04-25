@@ -8,7 +8,7 @@ class StreamScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
 
-    final corpusMedium = Theme.of(context).textTheme.bodyMedium;
+     final corpusMedium = Theme.of(context).textTheme.bodyMedium;
 
     final titleMedium = Theme.of(context).textTheme.titleMedium;
 

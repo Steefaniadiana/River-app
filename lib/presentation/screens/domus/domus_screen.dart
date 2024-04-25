@@ -39,6 +39,11 @@ class _DomusScreenVisum extends StatelessWidget {
           subtitulus: 'Un simple stream', 
           locus: '/stream-provider'
           ),
+           _AdaptaListTile(
+          titulus: 'State notifier provider', 
+          subtitulus: 'Un estado personalizado', 
+          locus: '/state-notifier-provider'
+          ),
       ],
     );
   }
